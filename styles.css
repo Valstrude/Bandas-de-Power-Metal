@@ -15,20 +15,39 @@ header {
     color: rgb(255, 0, 0);
 }
 
-.bands {
-    border-bottom: solid 2px rgb(255, 0, 0);
-    margin-top: 25px;
-    padding: 15px;
-    display: flex;
-    justify-content: center;
+.sections {
     background-color: rgb(0, 55, 100);
+    border-bottom: solid 2px rgb(255, 0, 0);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    width: 60%;
+    text-align: center;
+}
+
+.links {
+    margin: auto;
+    padding: auto;
+}
+
+.bands {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: auto;
+}
+
+.bands a {
+    margin-top: 15px;
+}
+
+.bands h1 {
+    margin-top: auto;
 }
 
 .imgs {
     border: solid 2px rgb(0, 55, 100);
-    opacity: 0.8;
-    display: flex;
-    justify-content: center;
+    opacity: 0.7;
     height: 300px;
 }
 
