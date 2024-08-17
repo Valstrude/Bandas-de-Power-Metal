@@ -2,26 +2,37 @@ body {
     color: white;
     background: black;
     margin: 0px;
+    font-family: "Chakra Petch", sans-serif;
 }
 
 header {
     border-bottom: solid 2px rgb(255, 0, 0);
-    padding: 20px;
-    font-size: 32px;
+    border-top: solid 2px rgb(255, 0, 0);
+    font-size: 30px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
     color: rgb(255, 0, 0);
 }
 
-section {
-    background: rgb(35, 95, 0);
-    padding-bottom: 80px;
-    padding-top: 80px;
+.bands {
+    border-bottom: solid 2px rgb(255, 0, 0);
+    margin-top: 25px;
+    padding: 15px;
     display: flex;
+    justify-content: center;
+    background-color: rgb(0, 55, 100);
 }
 
-.texto-principal {
-    padding-left: 25px;
+.imgs {
+    border: solid 2px rgb(0, 55, 100);
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    height: 300px;
 }
 
-.first-video {
-    margin-left: 25px;
+.imgs:hover {
+    border: solid 2px rgb(255, 0, 0);
+    opacity: 1.0;
 }
