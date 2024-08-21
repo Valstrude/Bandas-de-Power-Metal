@@ -33,12 +33,13 @@ header {
 .bands {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
     padding: auto;
 }
 
 .bands a {
     margin-top: 15px;
+    width: 50%;
 }
 
 .bands h1 {
