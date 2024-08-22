@@ -1,58 +1,93 @@
-body {
-    color: white;
-    background: black;
-    margin: 0px;
-    font-family: "Chakra Petch", sans-serif;
-}
-
-header {
-    border-bottom: solid 2px rgb(255, 0, 0);
-    border-top: solid 2px rgb(255, 0, 0);
-    font-size: 30px;
-    padding: 15px;
-    display: flex;
-    justify-content: center;
-    color: rgb(255, 0, 0);
-}
-
-.sections {
-    background-color: rgb(0, 55, 100);
-    border-bottom: solid 2px rgb(255, 0, 0);
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px;
-    width: 60%;
-    text-align: center;
-}
-
-.links {
-    margin: auto;
-    padding: auto;
-}
-
-.bands {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: auto;
-}
-
-.bands a {
-    margin-top: 15px;
-    width: 50%;
-}
-
-.bands h1 {
-    margin-top: auto;
-}
-
-.imgs {
-    border: solid 2px rgb(0, 55, 100);
-    opacity: 0.7;
-    height: 300px;
-}
-
-.imgs:hover {
-    border: solid 2px rgb(255, 0, 0);
-    opacity: 1.0;
-}
+<html lang="pt-BR">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Bandas de POWER METAL</title>
+</head>
+<body>
+    <header>Bandas de POWER METAL</header>
+    <section class="sections">
+        <div class="bands">
+            <h1>Dragonforce</h1>
+            <p>DragonForce é uma banda inglesa de power metal que surgiu em 1999, após o fim da banda de black metal, Demoniac. Todos os integrantes, exceto Lindsay Dawson, juntaram-se com ZP Theart e fundaram a banda, com o nome DragonHeart.</p>
+        </div>
+        <div>
+            <a class="links" href="https://www.youtube.com/watch?v=JVNJH1ie6yk">
+                <img class="imgs" src="https://img.youtube.com/vi/JVNJH1ie6yk/maxresdefault.jpg">
+            </a>
+        </div>
+        <section class="album">
+            <h2>Album mais recente:</h2>
+            <div class="album_content">
+                <a class="links" href="https://www.youtube.com/watch?v=fBf-Nwhm3KQ">
+                    <img class="album_imgs" src="https://img.youtube.com/vi/fBf-Nwhm3KQ/hqdefault.jpg"/>
+                </a>
+                <a class="links" href="https://www.youtube.com/watch?v=xxxvMWhETyI">
+                    <img class="album_imgs" src="https://img.youtube.com/vi/xxxvMWhETyI/hqdefault.jpg"/>
+                </a>
+                <a class="links" href="https://www.youtube.com/watch?v=5mlnbDpBzzI">
+                    <img class="album_imgs" src="https://img.youtube.com/vi/5mlnbDpBzzI/hqdefault.jpg">
+                </a>
+                <a class="links" href="https://www.youtube.com/watch?v=p2TTBNUwqMs">
+                    <img class="album_imgs" src="https://img.youtube.com/vi/p2TTBNUwqMs/hqdefault.jpg">
+                </a>
+                <a class="links" href="https://www.youtube.com/watch?v=beOBXRPR7mY">
+                    <img class="album_imgs" src="https://img.youtube.com/vi/beOBXRPR7mY/hqdefault.jpg">
+                </a>
+                <a class="links" href="https://www.youtube.com/watch?v=H3vd4t1atSM">
+                    <img class="album_imgs" src="https://img.youtube.com/vi/H3vd4t1atSM/hqdefault.jpg">
+                </a>
+                <a class="links" href="https://www.youtube.com/watch?v=K_Ln7VpB1c0">
+                    <img class="album_imgs" src="https://img.youtube.com/vi/K_Ln7VpB1c0/hqdefault.jpg">
+                </a>
+                <a class="links" href="https://www.youtube.com/watch?v=iPToXB8HcSs">
+                    <img class="album_imgs" src="https://img.youtube.com/vi/iPToXB8HcSs/hqdefault.jpg">
+                </a>
+            </div>
+        </section>
+    </section>
+    <section class="sections">
+        <div class="bands">
+            <h1>Angra</h1>
+            <p>Angra é uma banda brasileira de power metal, formada na cidade de São Paulo em 1991, pelo vocalista, tecladista e multi-instrumentista Andre Matos e os guitarristas Rafael Bittencourt e André Linhares, após se conhecerem na Faculdade Santa Marcelina, onde cursavam composição e regência.</p>
+        </div>
+        <div>
+            <a class="links" href="https://www.youtube.com/watch?v=tDU-G4o0XV8">
+                <img class="imgs" src="https://img.youtube.com/vi/aBxy95i8Yr0/maxresdefault.jpg"></img>
+            </a>
+        </div>
+    </section>
+    <section class="sections">
+        <div class="bands">
+            <h1>Lovebites</h1>
+            <p>Lovebites é uma banda japonesa de power metal formada em 2016 pela baixista Miho e baterista Haruna, ex-membros da Destrose. Sua formação atualmente consiste em Haruna na bateria, Midori e Miyako na guitarra, Asami nos vocais e Fami no baixo.</p>
+        </div>
+        <div>
+            <a class="links" href="https://www.youtube.com/watch?v=vbbMpq2zghQ">
+                <img class="imgs" src="https://img.youtube.com/vi/vbbMpq2zghQ/maxresdefault.jpg"></img>
+            </a>
+        </div>
+    </section>
+    <section class="sections">
+        <div class="bands">
+            <h1>Twilight Force</h1>
+            <p>Twilight Force é uma banda sueca de power metal sinfônico conhecida por suas letras altamente fantásticas e roupas no estilo LARP com as quais a banda se apresenta no palco.</p>
+        </div>
+        <div>
+            <a class="links" href="https://www.youtube.com/watch?v=LaTI4XF8PAY">
+                <img class="imgs" src="https://img.youtube.com/vi/LaTI4XF8PAY/maxresdefault.jpg">
+            </a>
+        </div>
+    </section>
+    <section class="sections">
+        <div class="bands">
+            <h1>Galneryus</h1>
+            <p>Galneryus é uma banda de power metal, formada em 2001, em Osaka, Japão.</p>
+        </div>
+        <div>
+            <a class="links" href="https://www.youtube.com/watch?v=-hL-iO86vdI">
+                <img class="imgs" src="https://i.ytimg.com/vi/-hL-iO86vdI/mqdefault.jpg">
+            </a>
+        </div>
+    </section>
+</body>
+</html>
